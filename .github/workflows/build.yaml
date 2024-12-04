@@ -12,7 +12,7 @@ env:
 
 jobs:
   stage-1:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     outputs:
       workers: ${{ steps.worker.outputs.workers }}
     env:
